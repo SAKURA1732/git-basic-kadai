@@ -1,0 +1,20 @@
+PS C:\Users\user> cd C:\samurai-terakoya
+PS C:\samurai-terakoya> cd git_challenge
+PS C:\samurai-terakoya\git_challenge> git init
+Initialized empty Git repository in C:/samurai-terakoya/git_challenge/.git/
+PS C:\samurai-terakoya\git_challenge> git add .
+PS C:\samurai-terakoya\git_challenge> git commit -m "Hello_world.txtを追加"
+[main (root-commit) 3e6de5d] Hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Hello_world.txt
+PS C:\samurai-terakoya\git_challenge> git remote -v
+kadai   git@github.com:SAKURA1732/git-basic-kadai.git (fetch)
+kadai   git@github.com:SAKURA1732/git-basic-kadai.git (push)
+PS C:\samurai-terakoya\git_challenge> git add Hello_world.txt
+PS C:\samurai-terakoya\git_challenge> git commit -m "日本語訳を追加"
+[main fb64058] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\samurai-terakoya\git_challenge> git log --oneline
+fb64058 (HEAD -> main) 日本語訳を追加
+3e6de5d Hello_world.txtを追加
+PS C:\samurai-terakoya\git_challenge> 
